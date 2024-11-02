@@ -1,0 +1,88 @@
+.main-top {
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.main-top img {
+    position: absolute;
+    justify-self: center;
+    z-index: -1;
+}
+.main-top__text a {
+    color: #9e9d99;
+}
+.main-top__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* chung dich vu */
+.main-bottom {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+}
+.main-bottom__item img {
+    width: 350px;
+}
+.main-bottom__item:hover {
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 10px #6b86cc);
+}
+/* lien he */
+.main__contract-here {
+    background-color: #b3c8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    justify-content: center;
+}
+.main__contract-here--item {
+    background-color: white;
+    width: 685px;
+    height: 344px;
+    border-radius: 50px;
+    border: 5px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 2px;
+}
+.comment__block h2 {
+    margin: 20px 0 0px;
+}
+.main__contract-here--item--input {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#name, #email, #number {
+    width: 350px;
+    height: 30px;
+}
+#number {
+    margin-left: 10px;
+}
+#comment {
+    height: 80px;
+    margin-left: 14px;
+    width: 350px;
+}
+.comment__submit {
+    background-color: #7298fc;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    height: 40px;
+    margin-top: 15px;
+}
+.comment__submit:hover {
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 10px rgb(17, 158, 223));
+}

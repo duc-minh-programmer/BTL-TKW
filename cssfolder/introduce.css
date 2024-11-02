@@ -1,0 +1,18 @@
+
+.content-top {
+    width: 40%;
+    margin: 100px 0;
+}
+.img-bgr {
+    position: absolute;
+    z-index: -1;
+    margin-left: 700px;
+}
+
+.content-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.content-bottom h3 {
+    width: 50%;
+}

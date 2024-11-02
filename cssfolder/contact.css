@@ -1,0 +1,80 @@
+.main__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+}
+.main__content-left h1:first-child {
+    color: #4ba4f6;
+}
+.main__content-left img ~ h1 {
+    color: #e6a629;
+}
+.main__content-left h3 {
+    color: #4e4d4d;
+    font-style: oblique;
+}
+.main__content-left strong {
+    font-size: 25px; 
+    font-weight: bold; 
+    padding-top: 5px;
+    color: black;
+    margin-right: 15px;
+}
+.main__content-left img {
+    width: 250px;
+}
+/* lien he */
+.main__contract-here {
+    background-color: #b3c8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    justify-content: center;
+}
+.main__contract-here--item {
+    background-color: white;
+    width: 685px;
+    height: 344px;
+    border-radius: 50px;
+    border: 5px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 2px;
+}
+.comment__block h2 {
+    margin: 20px 0 0px;
+}
+.main__contract-here--item--input {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#name, #email, #number {
+    width: 350px;
+    height: 30px;
+}
+#number {
+    margin-left: 10px;
+}
+#comment {
+    height: 80px;
+    margin-left: 14px;
+    width: 350px;
+}
+.comment__submit {
+    background-color: #7298fc;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    height: 40px;
+    margin-top: 15px;
+}
+.comment__submit:hover {
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 10px rgb(17, 158, 223));
+}
