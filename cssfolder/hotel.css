@@ -28,6 +28,10 @@
     font-weight: bold; 
     color:  black;
 }
+.main-mid__img {
+    display: flex;
+    justify-content: center;
+}
 /* lien he */
 .main__contract-here {
     background-color: #b3c8ff;
