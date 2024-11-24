@@ -18,9 +18,6 @@ a {
     margin: 0 auto;
     max-width: calc(100% - 48px);
 }
-.header__login {
-    margin-right: 60px;
-}
 h1 {
     color: #3d71f8;
 }
@@ -29,6 +26,10 @@ h1 {
 .main__img--head {
     margin: 0 auto;
     width: calc(100% - 48px);
+}
+.main-top {
+    display: flex;
+    justify-content: center;
 }
 /* dde xuat */
 .suggested-product {
@@ -156,6 +157,9 @@ h1 {
 .partner__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.partner__list img {
+    width: 300px;
 }
 /* promise */
 .promise {

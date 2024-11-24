@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./cssfolder/style.css">
-    <link rel="stylesheet" href="./cssfolder/service.css">
+    <link rel="stylesheet" href="./cssfolder/shoppingCart.css">
     <title>Minh store</title>
 </head>
 <body>
@@ -17,7 +17,7 @@
             <div class="header__nav">
                 <a href="./index.html"><h3>Trang chủ</h3></a>
                 <a href="./introduce.html"><h3>Giới thiệu</h3></a>
-                <a href="#" class="service-on"><h3>Dịch vụ</h3></a>
+                <a href="./service.html" class="service-on"><h3>Dịch vụ</h3></a>
                 <div class="service-box">
                     <a href="./trimming.html"><h3>Chải lông</h3></a>
                     <a href="./hotel.html"><h3>Khách sạn 5*</h3></a>
@@ -38,65 +38,76 @@
 
     <main>
         <div class="container">
-            <div class="main-top">
-                <img src="./img/anh cho bgr.jpg" alt="">
+            <div class="title">
+                <h3>sản phẩm</h3>
+                <h3>giá</h3>
+                <h3>số lượng</h3>
+                <h3>tổng tiền</h3>
+            </div>
 
-                <div class="main-top__text">
-                        <h1>DỊCH VỤ</h1> <br>
-                        <div class="main-top__text--choice">
-                            <a href="./index.html">Trang chủ</a> / Dịch vụ
-                        </div>
+            <hr>
+
+            <div class="list">
+                <div class="list__item">
+                    <div class="list__item--remove">X</div>
+
+                    <div class="list__item--product">
+                        <img src="./img/suatamgiohang.jpg" alt="">
+                        <h2>dầu tắm snowing</h2>
+                    </div>
+
+                    <h2 class="cost">105 000 đ</h2>
+
+                    <h2>1</h2>
+
+                    <h2 class="cost">105 000 đ</h2>
+                </div>
+
+                <div class="list__item">
+                    <div class="list__item--remove">X</div>
+
+                    <div class="list__item--product">
+                        <img src="./img/suatamgiohang2.jpg" alt="">
+                        <h2>dầu tắm golden</h2>
+                    </div>
+
+                    <h2 class="cost"> 99 000 đ</h2>
+
+                    <h2>1</h2>
+
+                    <h2 class="cost"> 99 000 đ</h2>
                 </div>
             </div>
 
-            <div class="main-bottom">
-                <div class="main-bottom__item">
-                    <a href="./trimming.html">
-                        <img src="./img/IMG-dichvu1.jpeg" alt="">
-                        <h1>Cắt tỉa - sấy lông</h1>
-                    </a>
+            <hr>
+
+            <div class="pay">
+                <div class="pay__total">
+                    <h2>tổng tiền:</h2>
+                    <h2 class="cost">204 000 đ</h2>
                 </div>
 
-                <div class="main-bottom__item">
-                    <a href="hotel.html">
-                        <img src="./img/IMG-dichvu2.jpeg" alt="">
-                        <h1>Khách sạn 5 cho chó</h1>
-                    </a>
-                </div>
-
-                <div class="main-bottom__item">
-                    <a href="./meetDoctor.html">
-                        <img src="./img/IMG-dichvu3.jpeg" alt="">
-                        <h1>Khám tại nhà</h1>
-                    </a>
-                </div>
+                <a href="">
+                    <div class="pay__press-to-pay">
+                        <h2>THANH TOÁN</h2>
+                    </div>
+                </a>
             </div>
 
-            <div class="main__contract-here">
-                <div class="main__contract-here--item">
-                    <h2 style="color: #3b6df1;">Liên hệ ngay</h2>
-
-                    <div class="main__contract-here--item--input">
-                        <h3>Name:</h3>
-                        <input type="text" name="name" id="name">
+            <div class="back">
+                <a href="./product.html">
+                    <div class="back__products">
+                        <h2>TIẾP TỤC XEM SP</h2>
                     </div>
-
-                    <div class="main__contract-here--item--input">
-                        <h3>Num:</h3>
-                        <input type="text" name="number" id="number">
+                </a>
+                
+                <a href="./index.html">
+                    <div class="back__home">
+                        <h2>QUAY TRỞ LẠI TRANG CHỦ</h2>
                     </div>
-
-                    <div class="main__contract-here--item--input">
-                        <h3>Email:</h3>
-                        <input type="email" name="email" id="email">
-                    </div>
-
-                    <div class="comment__submit">
-                        <h3 style="color: white;">Liên hệ</h3>
-                    </div>
-                </div>
+                </a>
+                
             </div>
-            
         </div>
     </main>
 

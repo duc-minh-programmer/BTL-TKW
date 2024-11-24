@@ -24,12 +24,22 @@ header a, footer h2, footer h3,footer h4 {
 /* header */
 header {
     height: 10rem;
-    background-color: #6464ce;
+    /* background-color: #6464ce; */
+    background-color: #444465;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.header__logo {
+    margin-left: 40px;
 }
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
 }
 .header__logo img {
     width: 70px;
@@ -37,7 +47,8 @@ header .container {
 .header__nav {
     display: flex;
     align-items: center;
-    gap: 50px;
+    width: 1000px;
+    justify-content: space-between;
     margin-top: 40px;
     margin-right: 300px;
 }
@@ -45,10 +56,18 @@ header a:hover {
     color: #d6fd23;
     filter: drop-shadow(1px 1px 10px #d6fd23);
 }
+.header__login {
+    margin-right: 60px;
+}
+/* main */
+.main__img--head {
+    margin: 0 auto;
+    width: calc(100% - 48px);
+}
 /* footer */
 footer {
     margin-top: 1px;
-    background-color: #6464ce;  
+    background-color: #444465;  
 }
 footer img {
     width: 60px;
@@ -56,6 +75,10 @@ footer img {
 .footer__top {
     display: flex;
     justify-content: space-around;
+    height: 300px;
+}
+.footer__top:only-child {
+    padding: 60px;
 }
 .footer__bottom {
     background-color: #3c3c3c;
@@ -68,6 +91,7 @@ footer img {
     justify-content: space-around;
     align-items: center;
 }
+/* service box */
 .service-box {
     position: absolute;
     width: 170px;
@@ -77,6 +101,7 @@ footer img {
     margin-left: 276px;
     visibility: hidden;
     box-shadow: 1px 1px 10px black;
+    transition: 0.1s;
 }
 .service-box h3 {
     color: rgb(0, 0, 0);
@@ -99,4 +124,17 @@ footer img {
     filter: none;
     background-color: #7298fc;
     border-radius: 8px;
+}
+.footer__top h1 {
+    color: white;
+}
+.footer__introduce {
+    width: 340px;
+}
+main {
+    margin-top: 100px;
+}
+.login {
+    width: 100px;
+    margin-right: 60px;
 }
