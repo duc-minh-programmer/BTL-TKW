@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./cssfolder/style.css">
-    <link rel="stylesheet" href="./cssfolder/shoppingCart.css">
+    <link rel="stylesheet" href="./cssfolder/pay.css">
     <title>Minh store</title>
 </head>
 <body>
@@ -38,77 +38,39 @@
 
     <main>
         <div class="container">
-            <div class="title">
-                <h3>sản phẩm</h3>
-                <h3>giá</h3>
-                <h3>số lượng</h3>
-                <h3>tổng tiền</h3>
-            </div>
+            <div class="pay-block">
+                <h1>số lượng sản phẩm: 2</h2>
 
-            <hr>
+                <!-- <h1>chọn phương thức thanh toán:</h1> -->
 
-            <div class="list">
-                <div class="list__item">
-                    <div class="list__item--remove">X</div>
+                <select name="payment-method" id="payment-method" class="pay-block__select">
+                    <option value="0" selected hidden>- lựa chọn phương thức -</option>
+                    <option value="1">Tiền mặt</option>
+                    <option value="2">Chuyển khoản</option>
+                    <option value="3">Trả trước</option>
+                    <option value="4">Trả sau</option>
+                    <option value="5">Thẻ ghi nợ</option>
+                </select>
 
-                    <div class="list__item--product">
-                        <img src="./img/suatamgiohang.jpg" alt="">
-                        <h2>dầu tắm snowing</h2>
-                    </div>
+                <input type="text" name="address" id="address" placeholder="nhập địa chỉ nhận hàng" class="pay-block__input">
 
-                    <h2 class="cost">105 000 đ</h2>
+                <input type="text" name="name" id="name" placeholder="nhập tên người nhận" class="pay-block__input">
 
-                    <h2>1</h2>
+                <select name="time" id="time" class="pay-block__select">
+                    <option value="" selected hidden>- chọn thời gian nhận hàng -</option>
+                    <option value="morning">buổi sáng (7h - 10h)</option>
+                    <option value="afternoon">buổi chiều (13h - 17h)</option>
+                    <option value="evening">buổi tối (19h - 22h)</option>
+                </select>
 
-                    <h2 class="cost">105 000 đ</h2>
-                </div>
-
-                <div class="list__item">
-                    <div class="list__item--remove">X</div>
-
-                    <div class="list__item--product">
-                        <img src="./img/suatamgiohang2.jpg" alt="">
-                        <h2>dầu tắm golden</h2>
-                    </div>
-
-                    <h2 class="cost"> 99 000 đ</h2>
-
-                    <h2>1</h2>
-
-                    <h2 class="cost"> 99 000 đ</h2>
-                </div>
-            </div>
-
-            <hr>
-
-            <div class="pay">
-                <div class="pay__total">
-                    <h2>tổng tiền:</h2>
-                    <h2 class="cost">204 000 đ</h2>
-                </div>
-
-                <a href="./pay.html">
-                    <div class="pay__press-to-pay">
+                <a href="">
+                    <div class="pay-block__submit">
                         <h2>THANH TOÁN</h2>
                     </div>
                 </a>
             </div>
-
-            <div class="back">
-                <a href="./product.html">
-                    <div class="back__products">
-                        <h2>TIẾP TỤC XEM SP</h2>
-                    </div>
-                </a>
-                
-                <a href="./index.html">
-                    <div class="back__home">
-                        <h2>QUAY TRỞ LẠI TRANG CHỦ</h2>
-                    </div>
-                </a>
-                
-            </div>
         </div>
+        
     </main>
 
     <footer>

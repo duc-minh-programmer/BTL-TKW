@@ -1,0 +1,36 @@
+main .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pay-block {
+    margin: 60px 0 60px;
+    border: 2px solid black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 774px;
+    gap: 52px;
+    padding: 0 20px;
+}
+.pay-block__select {
+    width: 466px;
+    height: 40px;
+}
+.pay-block__input {
+    width: 637px;
+    height: 40px;
+}
+.pay-block__submit {
+    width: 700px;
+    height: 80px;
+    background-color: #5a85f5;
+    color: white;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin-top: 80px;
+}
